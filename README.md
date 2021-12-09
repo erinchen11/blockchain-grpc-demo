@@ -39,7 +39,7 @@ Demo <br>
 - run cmd follow by these :
 <br>protoc --go-grpc_out=. --go-grpc_opt=paths=source_relative *.proto
 <br>protoc --go_out=. --go_opt=paths=source_relative *.proto</br>
-- use the generated .go file to write server code.
+- use the generated pb.go file to implement server.
 
 
 ## Note
